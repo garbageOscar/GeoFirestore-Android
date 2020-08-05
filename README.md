@@ -1,1 +1,2 @@
-GeoFireStore : by garbageOscar
+GeoFireStore: 
+		- hacked by garbageOscar
