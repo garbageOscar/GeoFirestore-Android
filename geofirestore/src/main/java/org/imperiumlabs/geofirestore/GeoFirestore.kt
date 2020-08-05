@@ -241,6 +241,11 @@ class GeoFirestore(val collectionReference: CollectionReference) {
                     callback.onComplete(documentSnapshots, null)
                 }
     }
+	
+	fun testing(){
+        Log.i(TAG, "testing: Testing and it worked...")
+    }
+    
 
     /**
      * Raise an event from the EventRaiser
