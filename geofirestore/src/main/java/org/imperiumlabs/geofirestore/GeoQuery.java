@@ -92,6 +92,8 @@ public class GeoQuery {
         this.geoFirestore = geoFirestore;
         this.center = center;
         this.radius = radius * KILOMETER_TO_METER; // Convert from kilometers to meters.
+		
+		Log.i("$$$$ BIG BALLIN", "GeoFireStore haxed by GarbageOscar!!!");
     }
 
     private boolean locationIsInQuery(GeoPoint location) {
